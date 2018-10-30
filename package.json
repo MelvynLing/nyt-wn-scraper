@@ -1,0 +1,26 @@
+{
+  "name": "nyt-worldnews-scraper",
+  "version": "1.0.0",
+  "description": "A New York Times WORLD NEWS MongDB Scraper  -- An app that allows the user to view the latest World News Articles from the New York Times World News Page, and Save them for viewing later.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelvynLing/nyt-worldnews-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelvynLing/nyt-worldnews-scraper/issues"
+  },
+  "homepage": "https://github.com/MelvynLing/nyt-worldnews-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.7"
+  }
+}
